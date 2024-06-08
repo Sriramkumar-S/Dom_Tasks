@@ -90,25 +90,9 @@ let fileUpload_line_Break = lineBreak();
 let fileUploadLabel = labelCreate("fileUpload", "Browse Files: ")
 let fileUploadInput = inputCreate("input", "file", "fileUpload" )
 
-document.body.append(firstNameLabel, firstName_line_Break, firstNameInput);
-document.body.append(firstNameInput_line_Break);
-document.body.append(middleNameLabel, middleName_line_Break, middleNameInput);
-document.body.append(middleNameInput_line_Break);
-document.body.append(lastNameLabel, lastName_line_Break, lastNameInput);
-document.body.append(lastNameInput_line_Break);
-document.body.append(passwordLabel, password_line_Break, passwordInput);
-document.body.append(passwordInput_line_Break);
-document.body.append(fileUploadLabel, fileUpload_line_Break, fileUploadInput);
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.body.append(firstNameLabel, firstName_line_Break, firstNameInput, firstNameInput_line_Break,
+    middleNameLabel, middleName_line_Break, middleNameInput, middleNameInput_line_Break,
+    lastNameLabel, lastName_line_Break, lastNameInput, lastNameInput_line_Break,
+    passwordLabel, password_line_Break, passwordInput, passwordInput_line_Break,
+    fileUploadLabel, fileUpload_line_Break, fileUploadInput
+);
